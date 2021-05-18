@@ -52,4 +52,7 @@
     .wrapper{
         margin-top: 4vh;
     } 
+    .wrapper p {
+        font-size: 1.3em;
+    }
 }

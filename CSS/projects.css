@@ -9,6 +9,7 @@
     padding: 1.5rem;
 }
 .Pcontainer{
+    overflow: hidden;
     margin-bottom: 50px;
     padding: 40px;
     background: linear-gradient(to top, #F5340B, white);
@@ -77,4 +78,9 @@
     bottom: -1px;
     left: -1px;
     box-shadow: none;
+}
+@media screen and (max-width: 480px){
+    .CheckItOut{  
+        width: 100%;  
+    }
 }
