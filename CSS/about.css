@@ -1,0 +1,103 @@
+/* ----------About Page--------------*/
+.aboutPage{
+    position: relative;
+    top: 4vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+}
+.containerLeft{
+    width: 40%;
+    float: left;
+}
+ 
+
+.aboutpic{
+    overflow: auto;
+    text-align: left;
+} 
+.containerRight{
+    width: 60%;
+    float: right;
+    padding-left: 30px;
+}
+
+.containerTwo{
+    text-align: left;
+    margin-left: 3vw;
+}
+.red{
+    color: #F5340B;
+}
+.containerThree{
+    width: 20%;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 5vh;
+}
+
+.about, .container{
+    text-align: left;
+    font-size: 1.7rem;
+    
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.experienses, .collaborations, ul{ 
+    text-align: right;
+    font-size: 1.2rem;
+}
+.collaborations{
+    margin-top: 50%;
+}
+.workTogether{
+    text-align: right;
+    margin: 5vw 0;
+}
+.email{
+    font-family: "Delicato";
+    font-style: italic;
+}
+@media screen and (max-width: 480px){
+    body{
+        margin: 0 5vw;
+    }
+    .containerLeft{
+        width: 100%;
+        float: none;
+    }
+    .aboutPage{
+     text-align: center;
+        
+    }
+    .containerRight{
+        width: 100%;
+        float: none;
+        padding-left: 0px;
+    }
+    .workTogether{
+        text-align: left;
+        margin-top: 20vw;
+    }
+    .containerTwo{
+        margin-top: 20px;
+    }
+    .about{
+        text-align: center; 
+    }
+    .containerThree{
+        width: 100%;
+    }
+    .experienses, .collaborations, ul{ 
+        text-align: left;
+    }
+    .collaborations{
+        margin-top: 30px;
+    }
+}
+
+

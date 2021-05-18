@@ -1,0 +1,55 @@
+
+.wrapper{
+    width: auto;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: right;
+    line-height: 50px;
+    height: 350px;
+    margin-bottom: 10px;
+    background: linear-gradient(rgba(255, 255, 255, 0.322),rgba(255, 255, 255, 0.212)), url('../Media/AlvaPic.jpg');
+    /*background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+.wrapper p{
+    padding: 60px 0;
+    font-family: "Poiret One";
+    font-size: 1.75em;
+}
+.wrapper a,
+.big{
+    font-size: 1.5em;
+}
+.wrapper a:link{
+    text-decoration: none;
+}
+.wrapper a:hover{
+    color: lightgray;
+    position: relative;
+    bottom:2px;
+    left: 2px;
+    transition: 0.2s;
+}
+.wrapper a:active{
+    position: relative;
+    bottom: -1px;
+    left: -1px;
+}
+.name, .projectstext, .program{
+    color: #F5340B;
+}
+.HomeText{
+    position: relative;
+    font-style: italic;
+    width: 45%;
+
+}
+.HomeText p{
+    font-size: 1em;
+}
+@media screen and (max-width: 480px){
+    .wrapper{
+        margin-top: 4vh;
+    } 
+}

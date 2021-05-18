@@ -1,0 +1,129 @@
+/*---------Sign-Up flow-------------*/
+html {
+    scroll-behavior: smooth;
+}
+.headerProjects {
+    text-align: center;
+    margin: 7%;
+}
+.headerProjects h1 {
+    font-size: 3.6rem;
+    padding: 1.5rem;
+}
+.Activites{
+    padding-bottom: 40px;
+    border-bottom: black 2px solid;
+}
+.titleR{
+    margin-top: 50px;
+}
+.wireframeR{
+    display: inline-block;
+    justify-content: space-between; 
+    margin-top: 40px; 
+    padding-bottom: 40px;
+    border-bottom: solid black 2px;
+}
+.img1 p{
+    display: inline;
+    float: right;
+}
+.img2 p{
+    display: inline;
+    float: right;
+}
+.img3 p{
+    display: inline;
+    float: right;
+}
+.titleP{
+    margin-top: 50px;
+}
+.wireframeP{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px; 
+    padding-bottom: 40px;
+    border-bottom: solid black 2px;
+}
+.imgP{
+    text-align: center;
+}
+.titleF{
+    margin-top: 50px;
+}
+.imgVideo{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 120px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    border-top: black 2px solid;
+}  
+.buttonAP{
+    padding: 0.5vw;
+    border: 2px solid black;
+    width: 30vw;
+    height: 5vh;
+    
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left: 10vw;
+    margin-right: 10vw;
+} 
+.buttonAP:hover{
+    position: relative;
+    bottom: 2px;
+    left: 2px;
+    transition: 0.2s;
+    box-shadow: -5px 5px 6px #000000;
+    background: #F5340B;
+}
+.buttonAP:active{
+    position: relative;
+    bottom: -1px;
+    left: -1px;
+    box-shadow: none;
+    
+}
+.buttonAP a:link{
+    text-decoration: none;
+}
+.buttonAP a{
+    color: black;
+}
+@media screen and (max-width: 480px){
+    .footer{
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 3vh;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        border-top: black 2px solid;
+    }  
+    .buttonAP{
+        padding: 0.5vw;
+        border: 2px solid black;
+        width: 30vw;
+        height: 5vh;
+        
+        text-align: center;
+        font-size: 1.2rem;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    } 
+    .imgVideo{
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .imgF{
+        margin-bottom: 10vh;
+    }
+}

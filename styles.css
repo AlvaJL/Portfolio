@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+}
+
+body {
+    margin-right: 15vw;
+    margin-left: 15vw;
+}
+h1{
+    font-size: 2.488rem;
+    font-family: "Poiret One";
+   /* text-shadow: -5px 5px #000000;
+    color: gray;*/
+}
+h2{
+    font-size:2.074rem;
+    font-family: "Poiret One";
+}
+h3{
+    font-size: 1.728rem;
+    font-family: "Poiret One";
+}
+h4{
+    font-size: 1.2rem;
+    font-family: "Poiret One";
+}
+h5{
+    font-size: 1.1rem;
+    font-family: "Delicato";
+}
+p{
+    font-size: 0.8rem;
+    font-family: "Delicato";
+}
+/* ----------Top Bar--------------*/
+.logo{
+    overflow: hidden;
+}
+
+.logo, .topnav{
+    display: inline-block;
+}
+.topnav{
+    font-family: "Poiret One";
+    float: right;
+    align-items: space-between;
+    margin-right: 2px;    
+}
+.topnav a{
+    margin-left: 7vw;
+    font-size: 2vw;
+    color: black;
+}
+.topnav a:link{
+    text-decoration: none;
+}
+.topnav a:hover{
+    color: lightgray;
+    position: relative;
+    bottom:2px;
+    left: 2px;
+    transition: 0.2s;
+    
+}
+.topbar{
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+
+
+/* responsive design*/
+
+@media screen and (max-width: 480px){
+    body{
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    .logo, .topnav{
+        display: block;
+    }
+    .topnav{
+        float: left;
+    }
+    .topnav a{
+        margin-right: 7vw;
+        margin-left:0vw;
+        font-size: 5vw;
+        color: black;
+    }
+    
+}
