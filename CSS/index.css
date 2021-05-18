@@ -55,4 +55,14 @@
     .wrapper p {
         font-size: 1.3em;
     }
+    .HomeText{    
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+@media screen and (min-height: 1000px){
+    .wrapper{
+        margin-top: 100px;
+    } 
+
 }
